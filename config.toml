@@ -7,7 +7,7 @@ theme = "hugo-theme-yinyang"
 
 [params]
   author = "Robert Jonczy"
-  description = "Today I Learned"
+  description = "Robert blogs what learned today"
   headTitle = "Today I Learned"
   mainSections = ["posts"]
 
