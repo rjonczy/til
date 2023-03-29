@@ -1,2 +1,0 @@
-# til
-Today I Learned
