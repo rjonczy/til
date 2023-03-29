@@ -5,18 +5,33 @@ title = 'Today I Learned'
 theme = "hugo-theme-yinyang"
 
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    guessSyntax = true
+    noClasses = true
+    style = "tango"
+    tabWidth = 2
+
+[author]
+  name = "Robert Jonczy"
+  homepage = "https://jonczy.pl/"
+
+
 [params]
   author = "Robert Jonczy"
   description = "Robert blogs what learned today"
   headTitle = "Today I Learned"
   mainSections = ["posts"]
 
-  [[params.social]]
-    icon = "github"
-    name = "GitHub"
-    url = "https://github.com/rjonczy"
+[[params.socials]]
+icon = "github"
+name = "GitHub"
+link = "https://github.com/rjonczy"
 
-  [[params.social]]
-    icon = "twitter"
-    name = "Twitter"
-    url = "https://twitter.com/robertjonczy"
+[[params.socials]]
+icon = "twitter"
+name = "Twitter"
+link = "https://twitter.com/robertjonczy"
