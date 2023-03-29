@@ -2,6 +2,8 @@ baseURL = 'https://jonczy.pl/til'
 languageCode = 'en-us'
 title = 'Today I learned'
 
+theme = "hugo-theme-yinyang"
+
 [params]
   author = "Robert Jonczy"
   description = "Todal I learned"
