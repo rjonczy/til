@@ -27,11 +27,9 @@ theme = "hugo-theme-yinyang"
   mainSections = ["posts"]
 
 [[params.socials]]
-icon = "github"
 name = "GitHub"
 link = "https://github.com/rjonczy"
 
 [[params.socials]]
-icon = "twitter"
 name = "Twitter"
 link = "https://twitter.com/robertjonczy"
