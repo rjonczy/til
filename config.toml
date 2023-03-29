@@ -1,3 +1,17 @@
 baseURL = 'https://rjonczy.github.io/til'
 languageCode = 'en-us'
 title = 'Today I learned'
+
+[params]
+  author = "Robert Jonczy"
+  description = "Todal I learned"
+
+  [[params.social]]
+    icon = "github"
+    name = "GitHub"
+    url = "https://github.com/rjonczy"
+
+  [[params.social]]
+    icon = "twitter"
+    name = "Twitter"
+    url = "https://twitter.com/robertjonczy"
