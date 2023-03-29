@@ -1,12 +1,15 @@
 baseURL = 'https://jonczy.pl/til'
 languageCode = 'en-us'
-title = 'Today I learned'
+title = 'Today I Learned'
 
 theme = "hugo-theme-yinyang"
 
+
 [params]
   author = "Robert Jonczy"
-  description = "Todal I learned"
+  description = "Today I Learned"
+  headTitle = "Today I Learned"
+  mainSections = ["posts"]
 
   [[params.social]]
     icon = "github"
