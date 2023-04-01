@@ -1,4 +1,4 @@
-baseURL = 'https://til.jonczy.pl/'
+baseURL = 'https://til.jonczy.dev/'
 languageCode = 'en-us'
 title = 'Today I Learned'
 
@@ -17,7 +17,7 @@ theme = "hugo-theme-yinyang"
 
 [author]
   name = "Robert Jonczy"
-  homepage = "https://til.jonczy.pl/"
+  homepage = "https://til.jonczy.dev/"
 
 
 [params]
