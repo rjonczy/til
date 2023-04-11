@@ -1,12 +1,12 @@
 ---
 title: "Whitelist for .gitignore"
 date: 2023-04-07T22:40:00+02:00
-draft: draft
+draft: false 
 categories: [git]
 ---
 
 Sometimes in git-repo we want to opt-in for some particular files/directories, rather 
-than blacklisting, what we do not want. Than we need someting lile awhitelist in `.gitignore`,
+than blacklisting, what we do not want. Than we need someting lile a whitelist in `.gitignore`,
 so we can specifically opt-in what will be added to repo.
 
 One of such cases, what I have recently found are [.dotfiles](https://en.wikipedia.org/wiki/Hidden_file_and_hidden_directory#Unix_and_Unix-like_environments).
