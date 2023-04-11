@@ -4,14 +4,12 @@
 post:
 	hugo new posts/$(title)
 
-server:
-	hugo server -ws .
+server: theme
+	hugo server -D .
 
-site:
-	hugo --minify
-	minify -r -o public/ -a public/
-	find public -type d -print0 | xargs -0 chmod 755
-	find public -type f -print0 | xargs -0 chmod 644
+theme:
+	git submodule init
+	git submodule update
 
 clean:
 	rm -rf public/
