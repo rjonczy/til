@@ -1,7 +1,8 @@
 # all: deploy
 
-page:
-	hugo new posts/$1
+# make post title=new-post.md
+post:
+	hugo new posts/$(title)
 
 server:
 	hugo server -ws .
