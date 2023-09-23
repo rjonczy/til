@@ -1,7 +1,8 @@
 ---
 title: "Vim Replace From Current"
 date: 2023-09-23T20:28:08+02:00
-categories: [vector, obsevability]
+categories: [vector, observability]
+draft: false
 ---
 
 Today I Learned: there is great tool [VRL playground](https://playground.vrl.dev/) for working 
