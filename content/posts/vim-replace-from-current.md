@@ -1,7 +1,7 @@
 ---
 title: "Vim Replace From Current"
 date: 2023-09-21T10:28:08+02:00
-categories: [vim, test]
+categories: [vim]
 ---
 
 Today I Learned: in order to replace in Vim from CURRENT line to end you do
