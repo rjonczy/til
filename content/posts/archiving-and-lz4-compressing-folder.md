@@ -13,6 +13,7 @@ Archive and compress
 # tar cvf - parachain | lz4 > parachain.tar.lz4
 ```
 
+and uncompress and unarchive
 ```
 # lz4 -d parachain.tar.lz4 -c | tar xvf -
 ```
