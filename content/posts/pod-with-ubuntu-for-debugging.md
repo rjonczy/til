@@ -21,3 +21,27 @@ spec:
     args: [ "while true; do sleep 30; done;" ]
 
 ```
+
+Another example, includes additionally:
+- `imagePullSecrets`
+- injects env from `Configmap` and `Secret`
+
+```yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ubuntu
+spec:
+  containers:
+  - name: ubuntu
+    image: ubuntu:latest
+    command: [ "/bin/bash", "-c", "--" ]
+    args: [ "while true; do sleep 30; done;" ]
+    envFrom:
+    - configMapRef:
+        name: autocompounder
+    - secretRef:
+        name: autocompounder
+  imagePullSecrets:
+  - name: registryghcr
+```
