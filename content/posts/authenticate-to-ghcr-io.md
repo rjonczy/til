@@ -6,7 +6,9 @@ categories: ['github']
 ---
 
 
-Today I Learned: authenticate to ghcr.io registry in order to pull docker images from private repos.
+Today I Learned: authenticate to ghcr.io registry
+
+In order to pull docker images from private repos you need to authenticate to docker registry first.
 
 1. Create PAT (Github's Personal Access Token) - classic
 
