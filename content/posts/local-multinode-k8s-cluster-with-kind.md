@@ -14,8 +14,7 @@ Get kind (or check for another [installation](https://kind.sigs.k8s.io/docs/user
 
 and create local k8s cluster with 1 node for control-plane and 3 worker nodes.
 ```bash
-cat > kind-config.yaml <<EOF
-# three node (two workers) cluster config
+cat > k8s-multinode-config.yaml <<EOF
 kind: Cluster
 apiVersion: kind.x-k8s.io/v1alpha4
 nodes:
@@ -26,14 +25,23 @@ nodes:
 EOF
 ```
 
+```bash
+❯ kind create cluster --name k8s-local-multinode --config k8s-multinode-config.yaml
+```
+
 and voila:
+```bash
+❯ kind get clusters
+k8s-local-multinode
+```
+
 ```bash
 ❯ k get nodes
 NAME                      STATUS   ROLES           AGE   VERSION
-k8s-local-control-plane   Ready    control-plane   3h    v1.29.2
-k8s-local-worker          Ready    <none>          3h    v1.29.2
-k8s-local-worker2         Ready    <none>          3h    v1.29.2
-k8s-local-worker3         Ready    <none>          3h    v1.29.2
+k8s-local-multinode-control-plane   Ready    control-plane   3h    v1.29.2
+k8s-local-multinode-worker          Ready    <none>          3h    v1.29.2
+k8s-local-multinode-worker2         Ready    <none>          3h    v1.29.2
+k8s-local-multinode-worker3         Ready    <none>          3h    v1.29.2
 ```
 
 
