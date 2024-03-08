@@ -1,7 +1,7 @@
 ---
 title: "VRL playground for developing Vector's remaps"
 date: 2023-09-23T20:28:08+02:00
-categories: [vector, observability]
+categories: [vector]
 ---
 
 Today I Learned: there is great tool [VRL playground](https://playground.vrl.dev/) for working 
