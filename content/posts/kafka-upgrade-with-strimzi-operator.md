@@ -1,5 +1,5 @@
 ---
-title: "Upgrade Kafka cluster running on k8s With Strimzi"
+title: "Upgrade Kafka cluster running on k8s with Strimzi operator"
 date: 2024-10-13T18:25:24+02:00
 categories: ["kafka"]
 draft: false
